@@ -61,7 +61,7 @@ export const Navigation: React.FC = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center group focus:outline-none">
               <img 
-                src="/logo.png" 
+                src="/logo.png?v=2" 
                 alt="Prime Landscaping Logo" 
                 className={`w-auto object-contain transition-all duration-500 group-hover:scale-105 ${
                   isScrolled ? 'h-[80px]' : 'h-[120px]'

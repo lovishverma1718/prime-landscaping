@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-1 flex flex-col gap-4">
             <Link to="/" className="flex items-center w-fit focus:outline-none">
               <img 
-                src="/logo.png" 
+                src="/logo.png?v=2" 
                 alt="Prime Landscaping Logo" 
                 className="h-[200px] w-auto object-contain"
               />
