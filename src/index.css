@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #fcfdfc;
+    color: #1a261a;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Custom premium scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f4f6f4;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #304830;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1b2b1b;
+  }
+}
+
+/* Glassmorphism helpers */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-effect-dark {
+  background: rgba(27, 43, 27, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Custom transitions and overlays */
+.img-zoom-hover {
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.img-zoom-hover:hover {
+  transform: scale(1.05);
+}
+
+/* Text reveal mask classes */
+.text-mask {
+  overflow: hidden;
+  position: relative;
+}
+
+.text-mask span {
+  display: inline-block;
+  transform: translateY(100%);
+}
