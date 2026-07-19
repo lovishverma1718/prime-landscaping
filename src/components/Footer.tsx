@@ -10,15 +10,12 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8 pb-16">
           {/* Logo & Brief Description */}
           <div className="md:col-span-1 flex flex-col gap-4">
-            <Link to="/" className="flex items-center gap-3 w-fit focus:outline-none">
+            <Link to="/" className="flex items-center w-fit focus:outline-none">
               <img 
                 src="/logo.png" 
                 alt="Prime Landscaping Logo" 
-                className="h-10 w-auto object-contain"
+                className="h-[200px] w-auto object-contain"
               />
-              <span className="text-brand-textPrimary font-semibold tracking-tight text-lg">
-                PRIME
-              </span>
             </Link>
             <p className="text-sm text-brand-textMuted font-light leading-relaxed mt-2">
               Premium residential landscaping and lawn care crafted with precision and long-term care.
@@ -94,8 +91,8 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <span className="block text-xs uppercase text-brand-textMuted tracking-wider mb-0.5">Email</span>
-                <a href="mailto:info@primelandscaping.com" className="hover:text-brand-primary transition-colors">
-                  info@primelandscaping.com
+                <a href="mailto:primelandscaping.gta@gmail.com" className="hover:text-brand-primary transition-colors">
+                  primelandscaping.gta@gmail.com
                 </a>
               </li>
               <li>

@@ -299,8 +299,8 @@ export const Contact: React.FC = () => {
                   <Mail className="w-5 h-5 text-brand-primaryLight shrink-0" />
                   <div>
                     <span className="block text-xs uppercase tracking-wider text-brand-textMuted mb-0.5">Email</span>
-                    <a href="mailto:info@primelandscaping.com" className="hover:text-brand-primary transition-colors">
-                      info@primelandscaping.com
+                    <a href="mailto:primelandscaping.gta@gmail.com" className="hover:text-brand-primary transition-colors">
+                      primelandscaping.gta@gmail.com
                     </a>
                   </div>
                 </li>
