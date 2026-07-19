@@ -64,7 +64,7 @@ export const Navigation: React.FC = () => {
                 src="/logo.png?v=2" 
                 alt="Prime Landscaping Logo" 
                 className={`w-auto object-contain transition-all duration-500 group-hover:scale-105 ${
-                  isScrolled ? 'h-[80px]' : 'h-[120px]'
+                  isScrolled ? 'h-[160px]' : 'h-[240px]'
                 }`}
               />
             </Link>
