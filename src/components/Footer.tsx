@@ -98,8 +98,8 @@ export const Footer: React.FC = () => {
               <li>
                 <span className="block text-xs uppercase text-brand-textMuted tracking-wider mb-0.5">Address</span>
                 <address className="not-italic leading-relaxed">
-                  100 Premium Way, Suite 200<br />
-                  Beverly Hills, CA 90210
+                  Greater Toronto Area<br />
+                  Ontario, Canada
                 </address>
               </li>
             </ul>

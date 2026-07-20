@@ -310,8 +310,8 @@ export const Contact: React.FC = () => {
                   <div>
                     <span className="block text-xs uppercase tracking-wider text-brand-textMuted mb-0.5">Address</span>
                     <address className="not-italic leading-relaxed">
-                      100 Premium Way, Suite 200<br />
-                      Beverly Hills, CA 90210
+                      Greater Toronto Area<br />
+                      Ontario, Canada
                     </address>
                   </div>
                 </li>
@@ -344,8 +344,8 @@ export const Contact: React.FC = () => {
               <div className="absolute inset-0 z-20 p-6 flex flex-col justify-between text-white font-light">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h4 className="font-semibold text-base">Serving Beverly Hills &amp; Surrounding Areas</h4>
-                    <p className="text-xs text-white/60 mt-1">Los Angeles County Residential Region</p>
+                    <h4 className="font-semibold text-base">Serving Greater Toronto Area &amp; Surrounding Regions</h4>
+                    <p className="text-xs text-white/60 mt-1">Ontario, Canada Service Area</p>
                   </div>
                   <div className="px-2.5 py-1 bg-brand-primaryLight text-xs rounded-full font-semibold uppercase tracking-wider">
                     Service Map
@@ -354,7 +354,7 @@ export const Contact: React.FC = () => {
 
                 <div className="flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/20 p-3.5 rounded-card-sm text-xs mt-auto">
                   <div className="w-3 h-3 rounded-full bg-brand-primaryLight animate-ping" />
-                  <p>Our office is located at 100 Premium Way. Call to schedule an in-person layout meeting.</p>
+                  <p>Serving residential &amp; commercial properties across the Greater Toronto Area (GTA), Ontario.</p>
                 </div>
               </div>
             </div>
